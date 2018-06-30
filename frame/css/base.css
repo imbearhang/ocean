@@ -1,0 +1,31 @@
+fieldset,img{
+	border:0;
+}
+ol,ul {
+	list-style:none;
+}
+.fn-clear:after {
+	visibility:hidden;	
+	display:block;	
+	font-size:0;	
+	content:" ";	
+	clear:both;	
+	height:0;
+}
+.fn-clear {
+	zoom:1; /* for IE6 IE7 */
+}
+.fn-left,.fn-right {
+	display:inline;
+}
+.fn-left {
+	float:left;
+}
+.fn-right {
+	float:right;
+}
+.relative{ 
+    position:relative;
+}
+
+/*------------------------------------------------------------------公用框架样式------------------------------------------------------------------*/

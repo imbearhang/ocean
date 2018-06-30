@@ -1,0 +1,574 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;font-family: Microsoft YaHei,SimHei,Tahoma;}
+body{font-family:"Microsoft YaHei";}
+#nvai{
+	z-index:100;
+	position:absolute;
+	margin-left:30%;
+	margin-top:2%;
+
+}
+.engdh{
+	font-size:0.5em;
+	line-height:0;
+	position:absolute;
+	margin-top:7.5%;
+	margin-left:-7%;
+	filter:alpha(opacity:60); opacity:0.6;
+	}
+
+ul #nav{ 
+	margin:0 auto; 
+	text-align:center;
+	display:block;
+ 	margin:0 auto; 
+	width:100%;
+  	min-width:960px;
+} 
+
+ul#nav li{
+	display:inline;
+	 height:60px;
+} 
+
+ul#nav li a{
+	display:inline-block; 
+	padding:0 15px; 
+	line-height:50px;
+	color:#FBF4F4;
+ 	font-family:"Microsoft YaHei";
+  	font-size:1.3em;
+} 
+
+#main{
+	z-index:100;
+	position:absolute;
+	margin-left:65%;
+	margin-top:3%;
+	display:block;
+}
+#main2{
+	display:block;
+	position:absolute;
+	width:150px;
+	height:80px;
+	text-align:center;
+	border: dashed #FFFFFF 2px;
+	border-radius: 30px;
+	z-index:2;
+	margin-left:75%;
+	margin-top:35px;
+	color:#FFFFFF;
+	font-family:"Microsoft YaHei";
+	
+}
+#main2 a{text-decoration:none; color:#fff;line-height:30px; font-size:0.8em;}
+#main2 span{ color:#FFFFFF; font-size:1.3em;}
+.logo{
+	position: absolute;
+	display:block; 
+	z-index:2;
+	padding:20px 300px;
+	height:auto;}
+.bot{
+	margin-top:-2%;
+	position: absolute;
+	display:block; 
+	z-index:2;
+}
+
+.bottom{
+	width: 322 px;
+	height: 104 px;
+	border-radius:15px;
+
+}
+a{
+	color:#000000;
+	text-decoration:none
+}  
+ 
+.boll {
+	position:absolute;
+	top:47%; left:19%;
+	width: 150px;
+	height: 151px;
+	margin: 0 auto;
+	background:url(../img/boll1.png) no-repeat;
+	-webkit-background-size: 150px 151px;
+	-moz-background-size: 150px 151px;
+	background-size: 150px 151px;
+	-webkit-border-radius: 110px;
+	border-radius: 110px;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+	z-index:3;
+}
+.boll2 {
+	position:absolute;
+	top:60%; right:28%;
+	width: 101px;
+	height: 101px;
+	margin: 0 auto;
+	background:url(../img/boll2.png) no-repeat;
+	-webkit-background-size: 101px 101px;
+	-moz-background-size: 101px 101px;
+	background-size: 100px 100px;
+	-webkit-border-radius: 110px;
+	border-radius: 110px;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+	z-index:3;
+}
+.boll3 {
+	position:absolute;
+	top:35%; right:23%;
+	width: 49px;
+	height: 49px;
+	margin: 0 auto;
+	background:url(../img/boll3.png) no-repeat;
+	-webkit-background-size: 49px 49px;
+	-moz-background-size: 49px 49px;
+	background-size: 49px 49px;
+	-webkit-border-radius: 110px;
+	border-radius: 110px;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+	z-index:3;
+}
+.boll:hover {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+.boll2:hover {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+.boll3:hover {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+/*视频按钮处理*/
+.video-btn{
+      position: absolute;
+      width:600px;
+      height: 300px;
+      background:none;
+      top:50%;
+      left: 40%;
+      margin-top: -150px;
+      margin-left:-300px;
+      display: none;
+      z-index: 101;
+    }
+ .video-area{
+      float:left;
+      width:480;
+      height: 400;
+      background:none;
+    }
+.video-shut{
+	font-family:"微软雅黑";
+	padding-left:10px;
+	cursor:pointer;
+      height:40px;
+      width:40px;
+      font-size:40px;
+      color:#fff;
+      float:left;
+      display: block;
+    }
+.video-sug{
+	font-family:"微软雅黑";
+	margin-left:600px;
+    height:400px;
+	background:#2A2626;
+    width:300px;
+    color:#fff;
+    display: block;
+	text-align:center;
+	font-size:12px;
+	
+}
+.video-sug p{
+	width:300px;
+	height:400px;
+	font-size:1.2em;
+	margin-top:10px;
+}
+.video-sug span{
+	font-size:1.5em;
+}
+#shadow{
+     position: absolute;
+     opacity: 0.5;
+     filter:alpha(opacity=50);
+     bottom:0;
+     left: 0;
+     right: 0;
+     top: 0;
+     background:black;
+     z-index: 100;
+     display: none;
+   }
+/* Common button styles */
+.button {
+	cursor:pointer;
+	top:90%;
+	left:45%;
+	float: left;
+	min-width: 150px;
+	max-width: 250px;
+	padding:1em;
+	display: block;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+.button > span {
+	vertical-align: middle;
+}
+
+/* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
+.bg-1 .button {
+	color: #37474f;
+	border-color: #37474f;
+}
+.bg-2 .button {
+	color: #ECEFF1;
+	border-color: #ECEFF1;
+}
+.bg-3 .button {
+	color: #fff;
+	border-color: #fff;
+}
+
+/* Sizes */
+.button--size-s {
+	font-size: 14px;
+}
+.button--size-m {
+	font-size: 16px;
+}
+.button--size-l {
+	font-size: 18px;
+}
+
+/* Typography and Roundedness */
+.button--text-upper {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.button--text-thin {
+	font-weight: 300;
+}
+.button--text-medium {
+	font-weight: 500;
+}
+.button--text-thick {
+	font-weight: 600;
+}
+.button--round-s {
+	border-radius: 5px;
+}
+.button--round-m {
+	border-radius: 15px;
+}
+.button--round-l {
+	border-radius: 40px;
+}
+
+/* Borders */
+.button--border-thin {
+	border: 1px solid;
+}
+.button--border-medium {
+	border: 2px solid;
+}
+.button--border-thick {
+	border: 3px solid;
+}
+
+/* Ujarak */
+.button--ujarak {
+	position: absolute;
+	z-index:3;
+	-webkit-transition: border-color 0.4s, color 0.4s;
+	transition: border-color 0.4s, color 0.4s;
+}
+.button--ujarak::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #37474f;
+	z-index: -1;
+	opacity: 0;
+	-webkit-transform: scale3d(0.7, 1, 1);
+	transform: scale3d(0.7, 1, 1);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--ujarak.button--round-s::before {
+	border-radius: 2px;
+}
+.button--ujarak.button--inverted::before {
+	background: #7986CB;
+}
+.button--ujarak,
+.button--ujarak::before {
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--ujarak:hover {
+	color: #fff;
+	border-color: #37474f;
+}
+.button--ujarak.button--inverted:hover {
+	color: #37474F;
+	border-color: #fff;
+}
+.button--ujarak:hover::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+
+/* 背景处理 */
+.section { position: relative; overflow: hidden;}
+.section .bg {
+	position: absolute;
+	left: 0; 
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display:block;  
+	z-index:1;}
+.section .bg img{ 
+	display:block; 
+	width:100%; 
+	height:100%;
+	z-index:1;
+}
+.bg21 { 
+	position: absolute; 
+	left: 50%; top: 10%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+/*.bg22 { 
+	position: absolute; 
+	right: 50%; bottom: 30%;
+	width:  13%; 
+	height: 88px; 
+	background:url(../img/bg22.png) 0 0 no-repeat;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+	*/
+.bg31 { 
+	position: absolute; 
+	right: 53%; bottom: 23%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+	
+.bg32 { 
+	position: absolute; 
+	right: 35%; top: 10%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+	
+.bg41 { 
+	position: absolute; 
+	right: 70%; top: 15%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+	
+.bg42 { 
+	position: absolute; 
+	right: 30%; top: 50%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+
+.bg43 { 
+	position: absolute; 
+	left: 5%; bottom: 40%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}	
+	
+.bg44 { 
+	position: absolute; 
+	left: 70%; bottom: 30%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}	
+	
+/*.bg51 { 
+	position: absolute; 
+	right: 15%; top: 15%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+	*/
+.bg52 { 
+	position: absolute; 
+	left: 40%; top: 65%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+	
+.bg53 { 
+	position: absolute; 
+	left: 31%; top: 20%;
+	transition: all 1s;  
+	opacity: 0; 
+	z-index:2;}
+
+
+
+.section h3 { position: absolute; left: 57%; top: 29%; z-index: 10; width: 40%; height: 45px; font-family:"Microsoft YaHei"; font-size:3em; color:#FFFFFF; margin-left: -256px; margin-top: 60px;  background-repeat: no-repeat; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
+
+/*文字处理*/
+
+.p1 { position: absolute; left: 50%; top: 29%; width: 40%; margin-left: -255px; margin-top: 130px; font-size: 2.8em; font-family:"Microsoft YaHei"; color:#FFFFFF; opacity: 0; transition: all 1s;z-index: 10;}
+.p2 { position: absolute; left: 58%; top: 37%; width: 40%; margin-left: -255px; margin-top: 130px; font-size: 6.9em; font-family:"Microsoft YaHei"; color:#FFFFFF; opacity: 0; transition: all 1s;z-index: 10;}
+.p2 span{
+	color:#00B3FF;	
+}
+
+.txt3 { position: absolute; left: 50%; top: 40%; width: 38%;  opacity: 0; transition: all 1s;z-index: 10;}
+.txt3 p { margin-bottom: 17px; color: #FFFFFF; font-family:"Microsoft YaHei"; font-size:1.5em; letter-spacing:8px;line-height:40px; line-height:2em;}
+
+.txt4 { position: absolute; left: 23%;top: 45%;; width: 38%;  opacity: 0; transition: all 1s;z-index: 10;}
+.txt4 p { margin-bottom: 10px; color: #FFFFFF; font-family:"Microsoft YaHei"; font-size:1.5em; letter-spacing:8px;line-height:35px;line-height:2em;}
+
+/* CSS3过度及动画 */
+.active strong, .active h3 { opacity: 1; -webkit-transform:scale(1, 1); transform:scale(1, 1); transition-delay: 0.7s;z-index:2;}
+.active .p1 ,.active .p2 { opacity: 1; transition-delay: 1.7s;}
+
+.active .bg21 { opacity: 1; margin-left: -90px; transition-delay: 0.7s;}
+.active .bg22 { opacity: 1; margin-right: -350px; transition-delay: 0.7s;}
+.active .bg31 { opacity: 1; margin-left: -90px; transition-delay: 0.7s;}
+.active .bg32 { opacity: 1; margin-right: -350px; transition-delay: 0.7s;}
+.active .bg41 { opacity: 1; margin-right: -400px; transition-delay: 0.7s;}
+.active .bg42 { opacity: 1; margin-right: -350px; transition-delay: 0.7s;}
+.active .bg43 { opacity: 1; margin-top: -650px; transition-delay: 0.7s;}
+.active .bg44 { opacity: 1; margin-right: -650px; transition-delay: 0.7s;}
+.active .bg51 { opacity: 1; margin-left: -90px; transition-delay: 0.7s;}
+.active .bg52 { opacity: 1; margin-right: -350px; transition-delay: 0.7s;}
+.active .bg53 { opacity: 1; margin-right: -350px; transition-delay: 0.7s;}
+
+.active .txt3 {  opacity: 1; transition-delay: 1.1s;}
+.active .txt4 {  opacity: 1; transition-delay: 1.1s;}
+
+/* 当浏览器的可视区域小于980px */
+
+
+
+/* 当浏览器的可视区域小于1366px */
+@media screen and (max-width: 1366px) {
+.active .txt3 { bottom: 12.5em; opacity: 1; transition-delay: 1.1s;}
+.active .txt4 { bottom: 10em; opacity: 1; transition-delay: 1.1s;}
+}
+
+@media screen and (max-width: 768px) {
+#nvai{z-index:100;position:absolute;margin-left:15%;margin-top:1%;}
+
+
+ul#nav li{display:inline;height:1em;} 
+
+ul#nav li a{display:inline-block; padding:0 5px;color:#FBF4F4;font-family:"Microsoft YaHei";font-size:1.4em;} 
+
+.logo {padding: 5% 10%;margin-bottom: 10px; width:20%;height:10%;}
+
+.bot{position: absolute;display:block; margin-top:7%;margin-left:25%;width:35%;}
+
+.bg21 { position: absolute; left: 60%; top: 13%; width:15%;height:5%;}
+.bg31 { position: absolute; left: 23%; top: 13%; width:30%;height:10%;}
+.bg32 { position: absolute; left: 55%; top: 15%; width:30%;height:10%;}
+
+.bg41 { position: absolute; left: 40%; top: 15%; width:35;height:20%;}
+.bg42 { position: absolute; left: 70%; bottom: 5%; width:20%;height:20%;}
+.bg43 { position: absolute; left: 5%; bottom: 45%; width:15%;height:20%;}
+.bg44 { position: absolute; left: 70%; top: 35%; width:10%;height:10%;}
+
+
+.bg51 { position: absolute; left: 35%; top: 30%; width:60%;height:60%;}
+.bg52 { position: absolute; left: 45%; bottom: 5%; width:20%;height:20%;}
+.bg53 { position: absolute; left: 35%; top: 35%; width:40%;height:40%;}
+
+
+.section h3 {left: 70%; top: 29%; width: 45%; height: 45px;font-size:3em;}
+.p1 {left: 70%; top: 29%; width: 40%; font-size: 1.5em;}
+.p2 {left: 80%; top: 37%; width: 100%;font-size: 2.9em;}
+
+
+.txt3,.txt4  {width: 45%;}
+.txt3 p {font-size:1em; line-height:0.5em;}
+.txt4 p {font-size:1em; line-height:0.5em;}
+
+.active .txt3 { bottom: 50px;opacity: 1; transition-delay: 1.1s;}
+.active .txt4 { bottom: 50px;opacity: 1; transition-delay: 1.1s;}
+}
+
+/*@media screen and (max-width: 767px) {
+}
+*/
+/* 右侧导航 */
+#fullPage-nav { _display: none; font-size: 12px;}
+#fullPage-nav li { width: 90px; height: 21px; margin: 10px 0 0; vertical-align: middle;}
+#fullPage-nav li a { float: right; width: 21px; height: 21px; color: #ffffff; text-decoration: none; text-align: right; background:url(../img/dot.png)5px 5px no-repeat;}
+#fullPage-nav li .active { background-position: 0 bottom;}
+#fullPage-nav span { display: none;}
+.fullPage-tooltip { float: left; top: 0; margin-right: 5px; font: 12px "Microsoft Yahei"; color: #ffffff; line-height: 21px;}
+
+
+
+div{
+    font-size: 16px;
+    -webkit-transition:font-size 0.2s ease-out;
+}
+
+@media only screen and (max-width: 1200px) { div{ font-size: 16px; }}
+@media only screen and (max-width: 1100px) { div{ font-size: 15px; }}
+@media only screen and (max-width: 1000px) { div{ font-size: 15px; }}
+@media only screen and (max-width: 900px) { div{ font-size: 14px; }}
+@media only screen and (max-width: 800px) { div{ font-size: 13px; }}
+@media only screen and (max-width: 700px) { div{ font-size: 13px; }}
+@media only screen and (max-width: 600px) { div{ font-size: 12px; }}
+@media only screen and (max-width: 500px) { div{ font-size: 12px; }}
+@media only screen and (max-width: 400px) { div{ font-size: 11px; }}
+@media only screen and (max-width: 300px) { div{ font-size: 10px; }}
